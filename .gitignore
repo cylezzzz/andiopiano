@@ -1,0 +1,112 @@
+# ======================
+# ANDIO PIANO – Projektignore
+# ======================
+
+# OS / IDE / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.swp
+
+# ======================
+# Android / Gradle
+# ======================
+.gradle/
+**/build/
+local.properties
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.log
+captures/
+output.json
+
+# ======================
+# NDK / CMake
+# ======================
+.cxx/
+.externalNativeBuild/
+
+# ======================
+# Generated Code & Navigation
+*/generated/**
+navigation.xml
+
+# ======================
+# App-specific (Profile, Cache, Temporary)
+files/
+cache/
+tmp/
+logs/
+output/
+backups/
+
+# ======================
+# Assets (Large / Private)
+app/src/main/assets/models/
+app/src/main/assets/songs/private/
+app/src/main/assets/tmp/
+
+# ======================
+# Add-ons & Zips
+addons/**/*.zip
+addons/**/*.tmp
+*.zip
+*.tar
+*.rar
+
+# ======================
+# Node / Web / JS Tooling
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+.build/
+.next/
+.expo/
+web-build/
+
+# ======================
+# Python Tooling
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+.env.*
+
+# ======================
+# Arduino / Hardware Builds
+arduino/build*/
+arduino/*.hex
+arduino/*.elf
+arduino/*.bin
+
+# ======================
+# System Backups & Metadata
+*.bak
+*.tmp
+*.old
+*.orig
+*.rej
+*.backup
+
+# ======================
+# Git / LFS
+*.lock
+*.lfs
+!.gitattributes
+
+# ======================
+# Custom Local Configs
+config_local.json
+settings_local.json
+*.andioProfile
+*.andioCalib.json
